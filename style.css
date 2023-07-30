@@ -541,28 +541,6 @@ body {
   }
 }
 
-@media (min-width: 1920px) {
-  .header-container {
-    padding-left: 30rem;
-    padding-right: 30rem;
-  }
-
-  .dsktp-grid-container {
-    padding-left: 30rem;
-    padding-right: 30rem;
-  }
-
-  .main-container-padding {
-    padding-left: 30rem;
-    padding-right: 30rem;
-  }
-
-  .footer-container-wrapper {
-    padding-left: 30rem;
-    padding-right: 30rem;
-  }
-}
-
 @media (max-width: 767px) {
   .image-hero-landscape-tblt-dsktp {
     display: none;
