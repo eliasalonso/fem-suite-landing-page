@@ -466,6 +466,10 @@ body {
     gap: 2rem;
   }
 
+  .main-container-padding {
+    margin-left: 10.313rem;
+  }
+
   .main-container {
     position: relative;
     display: grid;
@@ -474,8 +478,6 @@ body {
     width: 69.313rem;
     height: 34.063rem;
     border-radius: 1rem;
-    margin-left: 10.313rem;
-    margin-right: 10.313rem;
   }
 
   .large-jeremy-image {
@@ -490,6 +492,8 @@ body {
     width: 4.003rem;
     height: 3.25rem;
     margin-top: 8rem;
+    margin-right: 4rem
+    ;
   }
 
   .text-container {
@@ -534,6 +538,13 @@ body {
     margin-top: 3.5rem;
   }
 }
+
+@media (min-width: 1920px) {
+  .main-container-padding {
+    margin-left: 20.626rem;
+  }
+}
+
 
 @media (min-width: 768px) {
   .image-hero-landscape-mobile {
